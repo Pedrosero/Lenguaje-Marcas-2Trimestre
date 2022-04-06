@@ -1,0 +1,110 @@
+.head {
+
+    grid-area: head;
+    background-color: black;
+  }
+  .titulo{
+    color: white;
+    font-size: 10px;
+    text-align: left;
+  }
+  .titulo2{
+    color: white;
+    text-align:right
+  }
+  .menu{
+    grid-area: menu;
+    background-color: greenyellow;
+  }
+  .menu ul li a{
+    padding: 30px 30px;
+    display: block;
+    text-decoration: none;
+    font-size: 25px;
+  }
+  .menu ul li{
+    display: inline-block;
+  }
+  .menuprincipal{
+      grid-area: menuprincipal;
+      background-color: darkgoldenrod;
+      width: 170px;
+      margin-left: 20px;
+      height: 230px;
+  }
+  .foto1{
+      width: 120px;
+      height: 140px;
+      margin-left: 20px;
+  }
+  .foto2{
+    grid-area: contenedorfoto;
+    margin-top: 10px;
+    width: 1000px;
+    height: 200px;
+  }
+  .calendario1 {
+    grid-area: calendario;
+  }
+  .foto3{
+    height: 100px;
+    width: 100px;
+  }
+  
+  .item-4 {
+  
+    grid-area: footer;
+    background-color: yellowgreen;
+  
+  }
+  .contenedor6{
+    grid-area: contenedor6;
+    background-color: blueviolet;
+    margin-top: 5px;
+   
+    width: 1000px;
+    height: 260px;
+}
+.imgderecha{
+    width: 150px;
+    height: 130px;
+    vertical-align:text-bottom
+} 
+.contenedor5{
+  grid-area: categoria;
+  width: 1000px;
+  background-color: palevioletred;
+  height: 30px;
+}
+.contenedor8{
+  grid-area: footer;
+   background-color: black;
+   text-align: center;
+   color: white;
+}
+  .container {
+  
+    display: grid;
+  
+    background-color: yellow;
+
+    grid-template-columns: 2fr 2fr 2fr 2fr;
+  
+    grid-template-rows: 70px 50px 300px 50px ;
+  
+  
+    grid-template-areas:
+  
+      "head head head head"
+
+      "menu menu menu menu"
+  
+      "menuprincipal contenedorfoto contenedorfoto calendario"
+
+      ". categoria categoria ."
+
+      ". contenedor6 contenedor6 ."
+  
+      "footer footer footer footer";
+  
+  }

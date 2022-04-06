@@ -1,0 +1,122 @@
+body{
+    margin: 0;
+    padding: 0px;
+    font-family: sans-serif;
+    background-color: white;
+}
+
+#contenedor{
+    margin: auto;
+    width: 1600px;;
+    height: 1400px;;
+    background-color: white ;
+}
+
+#cabecera{
+    margin: 0px;
+    padding: 5px;
+
+    background-color:black ;
+}
+
+#moodle{
+
+}
+
+#titulo1{
+    color: white;
+}
+
+#registro{
+    text-align: right;
+    color: aliceblue;
+}
+
+#menu ul li a{
+    padding: 30px 30px;
+    display: block;
+    text-decoration: none;
+    font-size: 25px;
+   
+    
+}
+#menu ul li{
+    display: inline-block;
+    
+}
+#menu{
+    background-color: greenyellow;
+    list-style: none;
+    margin: 0px;
+    padding: 5px;
+    color: aliceblue;
+}
+#contenedor2{
+    background-color: white;
+    width: 1600px;
+    height: 700px;
+}
+#contenedor3{
+    background-color: red;
+    width: 1600px;
+    height: 0px;
+}
+#contenedor4{
+    background-color: yellow;
+    width: 260px;
+    height: 280px;
+    margin-left: 14px;
+
+}
+#imgcentrada{
+    display:block;
+    margin:auto;
+}
+#imgcentrada2{
+    display:block;
+    margin:auto;
+}
+#contenedor5{
+    margin-top: 80px;
+    margin-left: 300px;
+    background-color: palevioletred;
+    width: 940px;
+    height: 30px;
+}
+#contenedor6{
+    background-color: blueviolet;
+    margin-top: 5px;
+    margin-left: 300px;
+    width: 940px;
+    height: 300px;
+}
+
+#contenedor7{
+    background-color: blue;
+    display: block;
+    margin-left: 1300px;
+    width: 260px;
+    height: 260px;
+    text-align: left;
+}
+#imgcentrada3{
+    display:block;
+    margin:auto;
+}
+#imgderecha{
+    width: 150px;
+    height: 130px;
+    vertical-align:text-bottom
+}
+.cambiacolor:hover{
+    background-color: purple;
+    color: black;
+}
+#contenedor8{
+   margin: 0px;
+   padding: 5px;
+    background-color: black;
+    margin:auto;
+    text-align: center;
+    color: white;
+}

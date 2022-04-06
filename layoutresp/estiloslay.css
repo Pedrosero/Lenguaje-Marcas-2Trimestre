@@ -1,0 +1,102 @@
+body{
+    background-color: gray;
+}
+
+hr{
+    background-color: blue;
+    color: chocolate;
+}
+
+.head{
+    grid-area: head;
+    background-color: black;
+}
+.foto1{
+    width: 40%;
+    height: 85%;
+}
+.menu{
+   grid-area: menu;
+   color: white;
+   background-color: black;
+   padding-left: 1%;
+  }
+  .menu ul li a{
+    padding: 50px 50px;
+    display: block;
+    text-decoration: none;
+  }
+  .menu ul li{ 
+    display: inline-block;
+  }
+  .cambiacolor{
+    font-size: 30%;
+  }
+  .boton1{
+      background-color: rgb(33, 151, 33);
+      font-size: 10%;
+      color: white;
+  }
+
+  .fondo{
+      grid-area: fondo;
+      background-color: greenyellow;
+  }
+ .footer{
+     grid-area: footer;
+     background-color: blueviolet;
+ }
+ .cajafoto{
+     grid-area: cajafoto;
+     background-color: blue;
+    
+ }
+ .foto2{
+     height: 100%;
+     width: 60%;
+     margin-left: 45%;
+ }
+ .cajatexto{
+     grid-area: cajatexto;
+     background-color: blue;
+ }
+ .texto1{
+    line-height: 10%;
+    margin-left: 5%;
+ }
+ .texto2{
+     font-size: 60%;
+     line-height: 10%;
+     margin-left: 5%;
+ }
+ .boton2{ 
+    margin-left: 2%;
+    height: 20%;
+    border-radius: 10%;
+    background-color: greenyellow;
+ }
+ .boton3{
+     background-color: blue;
+ }
+.container {
+    display: grid;
+  
+    background-color: white;
+
+    grid-template-columns: 2fr 2fr 2fr 2fr;
+  
+    grid-template-rows: 45px 200px 30px 0px 0px;
+  
+    grid-template-areas:
+  
+      "head menu menu menu"
+    
+      "cajafoto cajafoto cajatexto cajatexto "
+
+      "footer footer footer footer"
+  }
+@media screen and (max-device-width:640px), screen and (max-width:640px) {
+    .menu{
+        margin-left: 60px;
+    }
+}
